@@ -27,7 +27,7 @@ return [
     'connections' => [
         'aws' => [
             'credentials' => [
-                'key' => env('AKIAQ4J5YBEF67J27T6J'),
+                'key' => env('DYNAMODB_KEY'),
                 'secret' => env('DYNAMODB_SECRET'),
                 // If using as an assumed IAM role, you can also use the `token` parameter
                 'token' => env('AWS_SESSION_TOKEN'),
